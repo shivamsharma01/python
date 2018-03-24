@@ -1,0 +1,9 @@
+1. open shell and type 'virtualenv venv' | for python interpreter other than default write 'virtualenv -p C:\python27\python.exe venv'
+
+2. to use virtualenvironment
+        venv\Scripts\activate
+
+now the packages installed will only reside in this env and not system
+
+3. to close virtualenvironment
+        venv\Scripts\deactivate
